@@ -24,6 +24,10 @@ function doPost() {
         var msg = new SlackMessage({
             username: SLACK_USERNAME,
             icon_emoji: SLACK_ICON_EMOJI,
+            LinkNames: 1,<@URA7F39CL|@ogxe>,
+            LinkNames: 1,<@USH839MMH|@ogxe>,
+            LinkNames: 1,<@USH7NA9M1|@ogxe>,
+            LinkNames: 1,<@URCADTT4K|@ogxe>,
             header: '<' + sheet.getParent().getUrl() + '|' + sheet.getParent().getName() + '> @' + now
         });
         for (var c = COLUMN_START_MESSAGE; c <= row.getLastColumn(); c++) {
